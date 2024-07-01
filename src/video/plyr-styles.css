@@ -1,0 +1,48 @@
+html {
+    --plyr-color-main: var(--color-mode-default--background);
+    --plyr-video-background: var(--color-mode-default--background);
+    --plyr-tab-focus-color: transparent;
+    --plyr-video-control-color-hover: var(--color-mode-default--body-text);
+    --plyr-control-icon-size: 1.25rem;
+    --plyr-range-thumb-height: 0rem;
+    --plyr-range-track-height: 0.5rem;
+    --plyr-control-spacing: var(--element-button--gap);
+    --plyr-range-fill-background: var(--color-mode-default--progress-fill);
+    --plyr-video-progress-buffered-background: color-mix(in srgb, var(--color-mode-default--progress-fill), transparent 100%);
+    --plyr-video-range-track-background: color-mix(in srgb, var(--color-mode-default--background), transparent 80%);
+  }
+  
+  .plyr--video .plyr__controls {
+      padding: 2rem;
+  }
+  
+  .plyr__control--overlaid {
+    color: var(--color-mode-default--heading);
+  }
+  
+  .plyr__volume {
+    width: auto;
+    min-width: auto;
+    max-width: auto;
+  }
+  
+  .plyr {
+    width: 100%;
+    height: 100%;
+  }
+  .plyr video {
+    object-fit: cover;
+  }
+  .contain-video video {
+    object-fit: contain;
+  }
+  .is-active .video-cover {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .video-preview {
+    transition: transform 300ms cubic-bezier(.509, .188, .041, .989);
+  }
+  .is-active .video-preview {
+    transform: scale(1.25);
+  }
