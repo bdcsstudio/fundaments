@@ -9,7 +9,6 @@
   "license": "ISC",
   "dependencies": {
     "gsap": "^3.12.4",
-    "split-type": "^0.3.4",
     "swiper": "^11.0.5"
   },
   "devDependencies": {
