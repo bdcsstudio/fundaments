@@ -1,6 +1,7 @@
 import "./src/split-heading/split-heading";
 
 import "./src/nav/nav-search-expand";
+import "./src/nav/nav-search";
 import "./src/nav/navtrigger";
 
 import "./src/video/preview-hover";
