@@ -9,7 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "gsap": "^3.12.4",
-    "swiper": "^11.0.5"
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "vite": "^5.0.4"
