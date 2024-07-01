@@ -1,0 +1,6 @@
+        /* Stijl voor het animatie-effect */
+        .navtext {
+            display: inline-block;
+            overflow: hidden;
+            transform: translateY(-100%);
+        }
