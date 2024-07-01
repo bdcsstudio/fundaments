@@ -5,3 +5,4 @@ import "./src//split-heading/split-heading";
 import "./src//horizontal-scrub";
 import "./src//video/plyr";
 import "./src//video/hover-ix";
+import "./src//marquee";
