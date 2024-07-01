@@ -5,3 +5,4 @@ import "./src/video/preview-hover";
 import "./src/video/plyr";
 
 import "./src/horizontal-scrub";
+import "./src/marquee";
