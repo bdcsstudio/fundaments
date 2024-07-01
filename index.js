@@ -10,5 +10,5 @@ import "./src/video/plyr";
 import "./src/horizontal-scrub";
 import "./src/marquee";
 
-import "./src/swiper/usp-swiper";
-import "./src/swiper/random-slides";
+import "./src/slider/usp-swiper";
+import "./src/slider/custom-slide";
